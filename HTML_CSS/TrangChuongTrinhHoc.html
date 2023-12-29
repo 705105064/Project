@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chương trình học</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.menu-ngang li{
+			border-left: 1px solid white;			
+		}
+	</style>
+	<script type="text/javascript">
+		function tb() {
+			alert('Bạn phải đăng nhập mới xem được nôi dung này!');
+		}
+		function hien() {
+			document.getElementById("hide").style.display = "block";
+		}
+		function an() {
+			document.getElementById("hide").style.display = "none";
+		}
+	</script>
+
+</head>
+<body>
+	<div class="header">
+		<div class="banner">
+			<!-- <marquee>  -->Có công mài sắt, có ngày nên kim!<!-- </marquee> -->
+		</div>
+		<div class="menu-header menu-ngang">
+			<ul class="menu level1">
+				<li ><a href="Home.html">Trang chủ</a></li>
+				<li ><a href="TrangChuongTrinhHoc.html">Chương trình học CNTT</a>
+					<ul class="menu-doc level2">
+						<li><a href="ChuongTrinhHocKhoaCNTT.html" target="chuongtrinh">Khoa CNTT</a>
+							<!-- <ul class="menu-doc level2 level3">
+								<li><a href="">Công nghệ phần mềm</a></li>
+								<li><a href="">Hệ thống thông tin</a></li>
+								<li><a href="">Khoa học máy tính</a></li>
+								<li><a href="">Mạng và truyền thông</a></li>
+							</ul> -->
+
+						</li>
+						<li><a href="ChuongTrinhHocKhoaSPTH.html" target="chuongtrinh">Khoa Sư phạm Tin học</a></li>
+					</ul>
+
+				</li>
+				<li><a href="TrangDangNhap.html" onclick="tb();">Nội dung chia sẻ</a>
+					<ul class="menu-doc level2">
+						<li><a href="Word.html" target="chuongtrinh">Word</a>
+							<ul class="menu-doc level2 level3">
+								<li><a href="WordCoBan.html" target="chuongtrinh">Cơ bản</a>
+									<ul class="level2 level3">
+										<li><a href="TrangDangNhap.html" onclick="tb();">Bài 1</a></li>
+										<li><a href="TrangDangNhap.html" onclick="tb();">Bài 2</a></li>
+										<li><a href="TrangDangNhap.html" onclick="tb();">Bài 3</a></li>
+										<li><a href="TrangDangNhap.html" onclick="tb();">Bài 4</a></li>
+										<li><a href="TrangDangNhap.html" onclick="tb();">Bài 5</a></li>
+									</ul>
+
+								</li>
+								<li><a href="WordNangCao.html" target="chuongtrinh">Nâng cao</a>
+									<ul class="level2 level3">
+										<li><a href="TrangDangNhap.html" onclick="tb();">Nâng cao 1</a></li>
+										<li><a href="TrangDangNhap.html" onclick="tb();">Nâng cao 2</a></li>
+									</ul>
+								</li>
+							</ul>
+							
+						</li>
+						
+						<!-- <li><a href="">PowerPoint</a></li>
+						<li><a href="">Excel</a></li>
+						<li><a href="">HTML</a></li>
+						<li><a href="">CSS</a></li>
+						<li><a href="">Javascrip</a></li> -->
+						
+					</ul>
+				</li>
+				<!-- <li><a href="DangKy.html" target="noidung">Đăng ký</a></li> -->
+				<li><a href="TrangDangNhap.html">Đăng nhập</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main">
+		<div class="nav">
+			<img src="FileAnh/logo.png" alt="Khoa CNTT trường Đại học Sư phạm HN" width="80%">
+			<br><br>
+			<img src="FileAnh/fit.jpg" alt="KhoaCTTT" width="80%">
+			<br><br>
+			<img src="FileAnh/conduongtinhyeu.jpg" alt="con duong tinh yeu hnue" width="80%">
+		</div>
+		<div class="content">
+			<iframe src="NDChinhCTH.html" name="chuongtrinh" id="content"></iframe>
+			<!-- KHUNG CHƯƠNG TRÌNH ĐÀO TẠO CÔNG NGHỆ THÔNG TIN - K69
+			<br>
+			Trình độ đào tạo: Đại học
+			<br>
+			Ngành đào tạo: Công nghệ thông tin
+			<br>
+			Mã ngành: 7480201<br>
+			Loại hình đào tạo: Chính quy
+			<br>
+			Thời gian đào tạo: 4 năm
+			<br>
+			Tổng số tín chỉ: 125 (chưa kể phần nội dung GDTC và GDQP)
+			<br>
+			<a href="ChuongTrinhHocKhoaCNTT.html">Xem chi tiết tại đây</a>
+			<br>
+			<br>
+			<br>
+			KHUNG CHƯƠNG TRÌNH ĐÀO TẠO SƯ PHẠM TIN HỌC
+			<br>
+			Trình độ đào tạo: Đại học<br>
+			Ngành đào tạo: Sư phạm Tin học<br>
+			Mã ngành: 7140210
+			<br>
+			Loại hình đào tạo: Chính quy
+			<br>
+			Thời gian đào tạo: 4 năm<br>
+			Tổng số tín chỉ: 136 (chưa kể phần nội dung GDTC và GDQP)<br>
+			<a href="ChuongTrinhHocKhoaCNTT.html">Xem chi tiết tại đây</a> -->
+
+		</div>
+		<div class="nd">
+			<!-- khối div trống để hiển thị lời chào javascrip -->
+			<div></div>
+			Các nội dung BTL web
+			<br>
+			<button>HTML</button>
+			<br>
+			<button>CSS</button>
+			<br>
+			<button>JavaScript</button>
+			<br>
+			<button>Word</button>
+			<br>
+			<button>Excel</button>
+			<br>
+			<button>PowerPoint</button>
+			
+
+		</div>
+	</div>
+	<div class="thong-tin">
+		<div id="tt">
+			
+			<h3>Thông tin thành viên</h3>
+			<br>
+		
+			<br>
+			Trần Thị Liễu
+			<br>
+			705105064
+			<br>
+			<a href="https://forms.gle/k8nekN475jhGGKxg7">Góp ý</a>
+		</div>
+		<div id="tt">
+			<h3>Về chúng tôi</h3>
+			<br>
+
+			<a href=""> Trang chủ</a><br>
+			<a href="">Giới thiệu</a><br>
+			<a href="">Tin tức</a><br>
+			<a href="">Liên hệ</a>
+		</div>
+		<div id="tt">
+			<h3>Chính sách</h3>
+			<br>
+			<a href=""> Trang chủ</a><br>
+			<a href="">Giới thiệu</a><br>
+			<a href="">Tin tức</a><br>
+			<a href="">Liên hệ</a>
+		</div>
+		<div id="tt">
+			<h3>Hỗ trợ</h3>
+			<br>
+			<a href=""> Trang chủ</a><br>
+			<a href="">Giới thiệu</a><br>
+			<a href="">Tin tức</a><br>
+			<a href="">Liên hệ</a>
+			
+		</div>
+		
+	</div>
+	<div class="footer">
+		<a href="http://fit.hnue.edu.vn/">fit.hnue.edu.vn</a>
+	</div>
+
+</body>
+</html>

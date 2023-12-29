@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.menu-ngang li{
+			border-left: 1px solid white;			
+		}
+	</style>
+	<script type="text/javascript">
+		function tb() {
+			alert('Bạn phải đăng nhập mới xem được nôi dung này!');
+		}
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div class="banner">
+			<!-- <marquee>  -->Nền tảng công nghệ web!<!-- </marquee> -->
+		</div>
+		<div class="menu-header menu-ngang">
+			<ul class="menu level1">
+				<li><a href="Home.html">Trang chủ</a></li>
+				<li><a href="TrangChuongTrinhHoc.html">Chương trình học CNTT</a>
+					<ul class="menu-doc level2">
+						<li><a href="ChuongTrinhHocKhoaCNTT.html" target="noidung">Khoa CNTT</a>
+
+						</li>
+						<li><a href="ChuongTrinhHocKhoaSPTH.html" target="noidung">Khoa Sư phạm Tin học</a></li>
+					</ul>
+
+				</li>
+				<li><a href="TrangDangNhap.html" onclick="tb();">Nội dung chia sẻ</a>
+					<ul class="menu-doc level2">
+						<li><a href="Word.html" target="noidung">Word</a>
+							<ul class="menu-doc level2 level3">
+								<li><a href="WordCoBan.html" target="noidung">Cơ bản</a>
+									<ul class="level2 level3">
+										<li><a href="TrangDangNhap.html" onclick="tb();">Bài 1</a></li>
+										<li><a href="TrangDangNhap.html" onclick="tb();">Bài 2</a></li>
+										<li><a href="TrangDangNhap.html" onclick="tb();">Bài 3</a></li>
+										<li><a href="TrangDangNhap.html" onclick="tb();">Bài 4</a></li>
+										<li><a href="TrangDangNhap.html" onclick="tb();">Bài 5</a></li>
+									</ul>
+
+								</li>
+								<li><a href="WordNangCao.html" target="noidung">Nâng cao</a>
+									<ul class="level2 level3">
+										<li><a href="TrangDangNhap.html" onclick="tb();">Nâng cao 1</a></li>
+										<li><a href="TrangDangNhap.html" onclick="tb();">Nâng cao 2</a></li>
+									</ul>
+								</li>
+							</ul>
+							
+						</li>
+						
+					<!-- 	<li><a href="">PowerPoint</a></li>
+						<li><a href="">Excel</a></li>
+						<li><a href="">HTML</a></li>
+						<li><a href="">CSS</a></li>
+						<li><a href="">Javascrip</a></li> -->
+						
+					</ul>
+				</li>
+				<!-- <li><a href="DangKy.html" target="noidung">Đăng ký</a></li> -->
+				<li><a href="TrangDangNhap.html">Đăng nhập</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main">
+		<div class="nav">
+			<img src="FileAnh/logo.png" alt="Khoa CNTT trường Đại học Sư phạm HN" width="80%">
+			<br><br>
+			<img src="FileAnh/fit.jpg" alt="KhoaCTTT" width="80%">
+			<br><br>
+			<img src="FileAnh/conduongtinhyeu.jpg" alt="con duong tinh yeu hnue" width="80%">
+		</div>
+		<div class="content">
+			<iframe src="NoiDungTrangChu.html" name="noidung" id="content"></iframe>
+			<!-- <h2>Nội dung word chia sẻ</h2>
+			<br>
+			<ol type="1">
+				<li>
+					Bài 1
+				</li>
+				<li>Bài 2</li>
+				<li>Bài 3</li>
+				<li>Bài 4</li>
+				<li>Bài 5</li>
+			</ol> -->
+
+			
+			
+
+		</div>
+		<div class="nd">
+			<!-- khối div trống để hiển thị lời chào javascrip -->
+			<div></div>
+			Các nội dung BTL web
+			<br>
+			<button>HTML</button>
+			<br>
+			<button>CSS</button>
+			<br>
+			<button>JavaScript</button>
+			<br>
+			<button>Word</button>
+			<br>
+			<button>Excel</button>
+			<br>
+			<button>PowerPoint</button>
+
+		</div>
+	</div>
+	<div class="thong-tin">
+		<div id="tt">
+			<h3>Thông tin thành viên</h3>
+			Trần Thị Liễu
+			<br>
+			705105064
+			<br>
+			<a href="https://forms.gle/k8nekN475jhGGKxg7">Góp ý</a>
+		</div>
+		<div id="tt">
+			<h3>Về chúng tôi</h3>
+			<br>
+
+			<a href=""> Trang chủ</a><br>
+			<a href="">Giới thiệu</a><br>
+			<a href="">Tin tức</a><br>
+			<a href="">Liên hệ</a>
+		</div>
+		<div id="tt">
+			<h3>Chính sách</h3>
+			<br>
+			<a href=""> Trang chủ</a><br>
+			<a href="">Giới thiệu</a><br>
+			<a href="">Tin tức</a><br>
+			<a href="">Liên hệ</a>
+		</div>
+		<div id="tt">
+			<h3>Hỗ trợ</h3>
+			<br>
+			<a href=""> Trang chủ</a><br>
+			<a href="">Giới thiệu</a><br>
+			<a href="">Tin tức</a><br>
+			<a href="">Liên hệ</a>
+			
+		</div>
+		
+	</div>
+	<div class="footer">
+		<a href="http://fit.hnue.edu.vn/">fit.hnue.edu.vn</a>
+	</div>
+
+</body>
+</html>

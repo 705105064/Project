@@ -1,0 +1,182 @@
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: 'Itim', cursive;
+		box-sizing: border-box;
+	}
+	html body{
+		height: 100%;
+		width: 100%;
+	}
+	.header{
+		min-height: 120px;
+		background-color: lightblue;
+	}
+	.banner{
+		min-height: 50px;
+		text-align: center;
+		line-height: 50px;
+		color: #3D2727;
+		font-weight: bold;
+		font-size: 30px;
+		font-style: italic;
+		box-shadow: 20px 20px 50px 10px pink inset;
+		font-family: 'Itim';
+	}
+	.menu-header{
+		min-height: 70px;
+		background-color: #0F709D;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.main{
+		
+		min-height: 700px;
+		display: flex;
+	}
+	.main .nav{
+		width: 20%;
+	}
+	.main .content{
+		width: 70%;
+	}
+	.main .nd{
+		width: 10%;
+	}
+	.gopy{
+		min-height: 200px;
+		background-color: lightblue;
+		box-shadow: 20px 20px 50px 5px pink inset;
+	}
+	.thong-tin{
+		min-height: 200px;
+		background-color: #619196e2;
+		display: flex;
+		color: white;
+		/*justify-content: center;*/
+	}
+	.footer{
+		min-height: 50px;
+		text-align: center;
+		background-color: lightblue;
+		line-height: 50px;
+		box-shadow: 20px 20px 50px 5px pink inset;
+	}
+	.footer a{
+		text-decoration: none;
+		color: black;
+	}
+	#tt{
+		width: 25%;
+
+	}
+	#tt a{
+		color: white;
+		text-decoration: none;
+	}
+	/*menu*/
+	.menu-ngang{
+		background-color: #C78E8E;
+		height: 70px;
+	}
+	/*tác động vào ul cấp 1*/
+	.menu-ngang>ul{
+		display: flex;
+		width: 100%;
+		/*margin:0 5%;*/
+		height: 70px;
+	}
+	.menu li{
+		list-style: none;
+		height: 70px;
+	}
+	.menu a{
+		text-decoration: none;
+		color: white;
+		display: block;
+		height: 70px;
+		line-height: 70px;
+		padding: 0 30px;
+	}
+	/*menu doc*/
+	.menu-doc li{
+		border-top: 1px groove white;
+	}
+	/*hover*/
+	.level1 >li:hover{
+		background-color: #D26719;
+	}
+	.level1 ul{
+		display: none;
+	}
+	.level1 li:hover>ul{
+		display: block;/*hiển thị khi hover vào thẻ li, ul*/
+	}
+	.level2{
+		background-color: #A4A1A1;
+	}
+	.level2 >li:hover{
+		background-color: #D26719;
+	}
+	.level2{
+		background-color: #A09999;
+		position: relative;/*đưa lên trước background: */
+		z-index: 2;/*chỉ sử dụng khi dùng cùng position*/
+	}
+
+	.clear{
+		clear: left;
+	}
+	.level3 li{
+		position: relative;
+	}
+	.level2 li>ul{
+		position: absolute;
+		top: 0;
+		left: 100%;
+	}
+	.level2 li>ul{
+		width: 100%;
+	}
+	.level2 .level1 li{
+		border-bottom: 1px groove white;
+	}
+		/*.level3 li>ul{
+			position: absolute;
+			top: 0;
+			left: 100%;
+		}
+		.level3 li>ul{
+			width: 100%;
+		}
+		.level3 .level2 li{
+			border-bottom: 1px groove white;
+			}*/
+			/*chinh cho iframe*/
+			#content{
+				border: none;
+				width: 100%;
+				height: 100%;
+			}
+			/*đăng ký, đăng nhập*/
+
+			.frm{
+				/*background-color: #CA9D15;*/
+				background-color: #327699c2;
+				min-height: 650px;
+				text-align: center;
+				font-size: 50px;
+				color: white;
+			}
+			.form-dk-dn{
+				margin: 100px 250px;
+				/*background-color: #327699c2;*/
+	/*margin-left: 300px;
+	margin-top: 100px;*/
+	text-align: left;
+	font-size: 30px;
+	color: white;
+	/*border: 1px solid blue;*/
+	display: flex;
+	justify-content: center;
+}

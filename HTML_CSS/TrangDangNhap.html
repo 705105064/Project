@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng nhập</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		alert("Tài khoản: 705105000" + "/ " + "Mật khẩu: ngaymoitotlanh");
+
+		
+		function thongbao(){
+			tk = document.getElementById("taikhoan");//lấy ra giá trị
+			mk = document.getElementById("matkhau");
+			if (tk.value == 705105000 && mk.value == 'ngaymoitotlanh') {
+				function dieu_huong(){
+					location.assign("TrangNoiDungChiaSe.html");
+				}
+				dieu_huong();
+			}
+			else{
+				alert("Thông tin đăng nhập sai. Mời nhập lại!");
+			}
+		}
+		
+        
+    </script>
+</head>
+<body>
+	<div class="frm">
+		<form>
+			<h3>Đăng nhập</h3>
+			<table class="form-dk-dn">
+				<tr>
+					<td>
+						Tài khoản: 
+					</td>
+					<td>
+						<input type="text" placeholder="Tài khoản" id="taikhoan">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Mật khẩu: 
+					</td>
+					<td>
+						<input type="password" placeholder="Mật khẩu" id="matkhau">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<!-- <button onclick="dieu_huong();">Đăng nhập</button> -->
+						<!-- <button type="button" onclick="dieu_huong()">Đăng nhập</button> -->
+						<button type="button" onclick="thongbao()">Đăng nhập</button>
+					</td>
+				</tr>
+			</table>
+			<!-- <br>
+			<br> -->
+			
+		</form>
+	</div>
+
+</body>
+</html>
